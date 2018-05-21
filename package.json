@@ -1,0 +1,23 @@
+{
+  "name": "jkjw",
+  "version": "1.0.0",
+  "description": "a voting site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EricZhang",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-ctx-paginate": "0.0.3",
+    "koa-router": "^7.4.0",
+    "passport": "^0.4.0",
+    "password-hash": "^1.2.2",
+    "pg": "^7.4.3",
+    "sequelize": "^4.37.7"
+  }
+}
